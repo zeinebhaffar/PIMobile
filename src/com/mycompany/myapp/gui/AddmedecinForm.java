@@ -39,7 +39,7 @@ public class AddmedecinForm extends BaseForm {
         TextField tfspécialité= new TextField("", "spécialité");
         TextField tfrégion= new TextField("", "région");
 
-        Button btnValider = new Button("Ajouter RDV");
+        Button btnValider = new Button("Ajouter un RDV");
         
         btnValider.addActionListener(new ActionListener() {
             @Override
