@@ -35,7 +35,7 @@ public class AddmedecinForm extends BaseForm {
         setTitle("Ajouter un nouveau medecin");
         setLayout(BoxLayout.y());
         
-        TextField tfnommed = new TextField("","Nom du medecin");
+        TextField tfnommed = new TextField("","Nom du med");
         TextField tfspécialité= new TextField("", "spécialité");
         TextField tfrégion= new TextField("", "région");
 
